@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Override Prism styling for operators */
+.token.operator {
+    background: transparent !important;
+    color: inherit !important;
+    padding: 0 !important;
+}
+  
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #1f1f1f;
+    border-radius: 10px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
